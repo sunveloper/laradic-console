@@ -1,0 +1,34 @@
+{
+  "name": "sunveloper/laradic-console",
+  "description": "Laravel 5 console stuff",
+  "homepage": "https://github.com/sunveloper/laradic-console",
+  "keywords": [
+    "console",
+    "laravel"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Robin Radic",
+      "email": "robin@radic.nl",
+      "role": "Package Author/Developer"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.5.9",
+    "sunveloper/laradic-support": "dev-master",
+    "wp-cli/php-cli-tools": ">=0.10",
+    "illuminate/support": ">=5.0",
+    "illuminate/console": ">=5.0"
+  },
+  "require-dev": {
+    "laradic/dev": "dev-master"
+  },
+  "scripts": {},
+  "autoload": {
+    "psr-4": {
+      "Sunveloper\\LaradicConsole\\": "src/"
+    }
+  }
+}
